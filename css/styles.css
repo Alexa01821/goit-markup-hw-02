@@ -176,10 +176,6 @@ font-family: 'Raleway', sans-serif;
   visibility: hidden;
 }
 /* ---------------------------------PORTFOLIO FILTERS-------------------------------- */
-.filters-title {
-  visibility: hidden;
-}
-
 .filters-btn {
   font-family: inherit;
   font-weight: 500;
@@ -203,18 +199,14 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* ---------------------------------PORTFOLIO EXEMPLE-------------------------------- */
-.exemple-title {
-  visibility: hidden;
-}
-
-.exemple-item-subtitle {
+.exemple-subtite {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
-.exemple-item-text {
+.exemple-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
