@@ -11,17 +11,21 @@
   --color-grey: #2e2f42b3;
   --color-white: #ffffff;
 }
+
 body {
   background-color: var(--color-white);
   font-family: "Roboto", sans-serif;
   color: var(--color-slate);
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 /* ---------------------------------HEADER-------------------------------- */
 
 .header-logo {
@@ -35,6 +39,7 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
 }
+
 .logo-web {
   color: var(--color-navy-blue);
 }
@@ -51,23 +56,28 @@ body {
 .header-link:focus {
   color: var(--color-ocean);
 }
+
 .header-address {
   font-style: normal;
 }
+
 .header-address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
   color: var(--color-ocean);
 }
+
 /* ---------------------------------HERO-------------------------------- */
 .hero {
   background-color: var(--color-navy-blue);
 }
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -93,6 +103,7 @@ body {
 .hero-btn:focus {
   background-color: var(--color-ocean);
 }
+
 /* ---------------------------------SECTION1 OPTION-------------------------------- */
 .option-title {
   visibility: hidden;
@@ -105,11 +116,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+
 .option-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /* ---------------------------------SECTION2 WORKS-------------------------------- */
 .works-title {
   font-size: 36px;
@@ -119,6 +132,7 @@ body {
   text-transform: capitalize;
   color: var(--color-navy-blue);
 }
+
 /* ---------------------------------SECTION3 TEAM -------------------------------- */
 .team {
   background-color: var(--color-cloud);
@@ -144,6 +158,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -166,6 +181,7 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
 }
+
 .footer-logo-studio {
   color: var(--color-cloud);
 }
@@ -181,6 +197,7 @@ body {
 .portfolio-title {
   visibility: hidden;
 }
+
 /* ---------------------------------PORTFOLIO FILTERS-------------------------------- */
 .filters-btn {
   font-family: inherit;
@@ -212,6 +229,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
+
 .exemple-text {
   font-size: 16px;
   line-height: 1.5;
