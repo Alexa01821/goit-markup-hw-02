@@ -15,7 +15,6 @@ body {
   background-color: var(--color-white);
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(--color-slate);
 }
 .list {
   list-style: none;
@@ -48,8 +47,7 @@ body {
   color: var(--color-navy-blue);
 }
 
-.header-link:hover {
-  color: var(--color-ocean);}
+.header-link:hover,
 .header-link:focus {
   color: var(--color-ocean);
 }
@@ -63,8 +61,7 @@ body {
   color: var(--color-slate);
 }
 
-.header-address-link:hover{
-  color: var(--color-ocean);}
+.header-address-link:hover,
 .header-address-link:focus {
   color: var(--color-ocean);
 }
@@ -94,7 +91,7 @@ body {
 }
 
 .hero-btn:hover,
-:focus {
+.hero-btn:focus {
   background-color: var(--color-ocean);
 }
 /* ---------------------------------SECTION1 OPTION-------------------------------- */
@@ -113,6 +110,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 /* ---------------------------------SECTION2 WORKS-------------------------------- */
 .works-title {
@@ -124,11 +122,11 @@ body {
   color: var(--color-navy-blue);
 }
 /* ---------------------------------SECTION3 TEAM -------------------------------- */
-.team{
+.team {
   background-color: var(--color-cloud);
 }
 
-.team-item{
+.team-item {
   background-color: var(--color-white);
 }
 
@@ -152,6 +150,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-slate);
 }
 
 /* ---------------------------------FOOTER-------------------------------- */
@@ -203,7 +202,7 @@ body {
 }
 
 .filters-btn:hover,
-:focus {
+.filters-btn:focus {
   color: var(--color-white);
   background: var(--color-ocean);
 }
