@@ -14,7 +14,7 @@
 body {
   background-color: var(--color-white);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  color: var(--color-slate);
 }
 .list {
   list-style: none;
@@ -58,7 +58,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
 
 .header-address-link:hover,
@@ -110,7 +109,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
 /* ---------------------------------SECTION2 WORKS-------------------------------- */
 .works-title {
@@ -150,7 +148,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
 
 /* ---------------------------------FOOTER-------------------------------- */
@@ -219,5 +216,4 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-slate);
 }
